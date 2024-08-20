@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormSignIn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1 -->
+    <h2 class="text"><b>Задание 1.1</b></h2>
+    <form id="FormSY1">
+        <label for="nameSY1"><b>Your login:</b></label><br>
+        <input type="text" id="nameSY1" name="nameSY1"><br><br>
+        <label for="passwordSY1"><b>Your password:</b></label><br>
+        <input type="password" id="passwordSY1" name="passwordSY1"><br><br>
+        <label for="rememberMeSY1"><b>Remember me</b></label>
+        <input type="checkbox" id="rememberMeSY1" name="rememberMeSY1"><br><br>
+        <input type="submit" id="sub1" name="sub1" value="Sign in">
+    </form>
+    <!-- 2 -->
+    <h2 class="text"><b>Задание 1.2</b></h2>
+    <form id="FormSY2">
+        <label for="emailSY2"><b>Your email:</b></label><br>
+        <input type="email" id="emailSY2" name="emailSY2"><br><br>
+        <label for="nameSY2"><b>Your login:</b></label><br>
+        <input type="text" id="nameSY2" name="nameSY2"><br><br>
+        <label for="passwordSY2"><b>Your password:</b></label><br>
+        <input type="password" id="passwordSY2" name="passwordSY2"><br><br>
+        <label for="repeatPasswordSY2"><b>Repeat password:</b></label><br>
+        <input type="password" id="repeatPasswordSY2" name="repeatPasswordSY2"><br><br>
+        <input type="submit" id="sub2" name="sub2" value="Sign in">
+    </form>
+    <!-- 3 -->
+    <h2 class="text"><b>Задание 1.3</b></h2>
+    <form id="FormSY3">
+        <label for="firstnameSY3"><b>Firstname:</b></label><br>
+        <input type="text" id="firstnameSY3" name="firstnameSY3"><br><br>
+        <label for="lastnameSY3"><b>Lastname:</b></label><br>
+        <input type="text" id="lastnameSY3" name="lastnameSY3"><br><br>
+        <label for="birthdaySY3"><b>Birthday:</b></label><br>
+        <input type="date" id="birthdaySY3" name="birthdaySY3"><br><br>        
+        <label for="genderSY3"><b>Gender:</b></label>
+        <select name="genderSY3" id="genderSY3">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <label for="countrySY3"><b>Country:</b></label>
+        <select name="countrySY3" id="countrySY3">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Russia">Russia</option>
+            <option value="France">France</option>
+        </select><br><br>
+        <b>Skills:</b>
+        <select name="skillsSY3" id="skillsSY3">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="PHP">PHP</option>
+            <option value="C++">C++</option>
+            <option value="JAVA">JAVA</option>
+            <option value="C#">C#</option>
+        </select><br><br>
+        <input type="submit" id="sub3" name="sub3" value="Save"><br><br>
+        <div class="boxSY3">
+            <b>RESULT</b><br>
+            <label for="span1">Firstname:</label>
+            <span id="span1"></span><br>
+            <label for="span2">Lastname:</label>
+            <span id="span2"></span><br>
+            <label for="span3">Birthday:</label>
+            <span id="span3"></span><br>
+            <label for="span4">Gender:</label>
+            <span id="span4"></span><br>
+            <label for="span5">Country:</label>
+            <span id="span5"></span><br>
+            <label for="span6">Skills:</label>
+            <span id="span6"></span><br>
+        </div>
+    </form>
+    <!-- 4 -->
+    <h2 class="text"><b>Задание 1.4</b></h2>
+    <div class="container">
+        <div class="box">
+            R <input type="range" name="red" id="red" value="255" min="0" max="255">
+        </div>
+        <div class="box">
+            G <input type="range" name="green" id="green" value="255" min="0" max="255">
+        </div>
+        <div class="box">
+            B <input type="range" name="blue" id="blue" value="255" min="0" max="255">
+        </div>
+        <input type="text" id="result" value="RGB(0,0,0)"><br>
+
+        <label for="spanColor1">Color: </label>
+        <span id="spanColor1"></span><br>
+    </div>
+    <!-- 5 -->
+    <h2 class="text"><b>Задание 1.5</b></h2>
+    <form id="FormSY5">
+        <b>Add questions:</b><br>
+        <div class="boxSY5">
+            <span id="span1_SY5"></span><br>
+            <label for="span2_SY5">Correct answer:</label>
+            <span id="span2_SY5"></span><br>
+            <label for="span3_SY5">Wrong answer:</label>
+            <span id="span3_SY5"></span><br>
+        </div>
+        <p>___________________________________________________________________</p>
+        <b>Add new question:</b><br>
+        <label for="quastionSY5"><b>Question:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" id="quastionSY5" name="quastionSY5" style="width: 400px; height: 10px;"><br>
+        <label for="correctSY5"><b>Correct answer:</b></label>
+        <input type="text" id="correctSY5" name="correctSY5" style="width: 400px; height: 10px;"><br>
+        <label for="wrongSY5"><b>Wrong answer:&nbsp;&nbsp;</b></label>
+        <input type="text" id="wrongSY5" name="wrongSY5" style="width: 400px; height: 10px;"><br>
+        <input type="submit" id="sub1_SY5" name="sub1_SY5" style="width: 535px;" value="Add">
+    </form>
+    <!-- 6 -->
+    <h2 class="text"><b>Задание 2.1</b></h2>
+    <form id="FormSY6">
+        <div>
+            <b>Add new message:</b><br>
+            <b>Your name:&nbsp;&nbsp;&nbsp;&nbsp;</b>
+            <input type="text" id="nameSY6" name="nameSY6" style="width: 500px;"><br>
+            <b>Your message:</b>
+            <textarea id="messSY6" name="messSY6" placeholder="Add New Message" cols="75" rows="2"></textarea><br>
+            <input type="submit" id="sub1_SY6" name="sub1_SY6" style="width: 625px;" value="Send">
+        </div>
+        <div class="boxSY6">
+            <span id="span1_SY6" class="textSY6"></span><br>
+            <span id="span2_SY6" class="textSY6"></span><br>
+            <span id="span3_SY6" class="textSY6"></span><br>
+        </div>
+    </form>
+    <!-- 7 -->
+    <h2 class="text"><b>Задание 2.2</b></h2>
+    <form id="FormSY7">
+        <div>
+            <b>1&#9002;&nbsp;&nbsp;How many letters are there in the word "Hello"?</b><br>
+            <select name="questSY7_1" id="questSY7_1">
+                <option value="que1">5</option>
+                <option value="que2">2</option>
+            </select><br>
+            <b>2&#9002;&nbsp;&nbsp;How many letters are there in the word "World"?</b><br>
+            <select name="questSY7_2" id="questSY7_2">
+                <option value="que1">4</option>
+                <option value="que2">5</option>
+            </select><br>
+            <input type="submit" id="sub1_SY7" name="sub1_SY7" value="Finish"><br><br>
+        </div>
+    </form>
+    <!-- 8 -->
+    <h2 class="text"><b>Задание 2.3</b></h2>
+    <div>
+        <label>
+            <input type="checkbox" id="boldCheckbox">
+            <span>Bold</span>
+        </label>
+        <label>
+            <input type="checkbox" id="underlineCheckbox">
+            <span>Underline</span>
+        </label>
+        <label>
+            <input type="checkbox" id="italicCheckbox">
+            <span>Italics</span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="alignment" value="left" checked>
+            <span>Left</span>
+        </label>
+        <label>
+            <input type="radio" name="alignment" value="right">
+            <span>Right</span>
+        </label>
+        <label>
+            <input type="radio" name="alignment" value="justify">
+            <span>Justify</span>
+        </label>
+        <br>
+        <textarea id="message" rows="5" cols="50">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</textarea>
+        <br>
+        <button type="button" id="applyStylesButton">Show text</button>
+        <br>
+        <span id="span1_SY8"></span>
+    </div>
+    <!-- 9 -->
+    <h2 class="text"><b>Задание 2.4</b></h2>
+    <form id="FormSY9">
+        <div>
+            <p>___________________________________________________________________</p>
+            <img src="im2.png" class="image"><br>
+            <b>Learning JavaScript: <br>JavaScript Essentials for <br>Modern Application <br>Development</b><br>
+            <p>Ethan Brown</p>
+            <h1>16$</h1>
+            <p>___________________________________________________________________</p>
+        </div>
+        <div>
+            <img src="im1.png" class="image"><br>
+            <b>You Don't Know JS: <br>Score & Closures</b><br>
+            <p>Kyle Simpson</p>
+            <h1>20$</h1>
+            <p>___________________________________________________________________</p>
+        </div>
+        <div>
+            <img src="im3.png" class="image"><br>
+            <b>JavaScript and JQuery: <br>Interactive Front-End <br>Web Development</b><br>
+            <p>Jon Duckett</p>
+            <h1>22$</h1>
+            <p>___________________________________________________________________</p>
+        </div>
+        <div>
+            <b>Book:</b><br>
+            <select name="Book_SY9" id="Book_SY9">
+                <option value="Learning JavaScript">Learning JavaScript</option>
+                <option value="You Don't Know JS">You Don't Know JS</option>
+                <option value="JavaScript and JQuery">JavaScript and JQuery</option>
+            </select><br>
+            <b>Quantity:</b><br>
+            <input type="number" name="Quantity_SY9" id="Quantity_SY9" style="width: 45px;"><br>
+            <b>Your name:</b><br>
+            <input type="text" name="Name_SY9" id="Name_SY9"><br>
+            <b>Delivery address:</b><br>
+            <textarea name="Address_SY9" id="Address_SY9" cols="10" rows="5"></textarea><br>
+            <b>Delivery date:</b><br>
+            <input type="date" name="Date_SY9" id="Date_SY9"><br>
+            <b>Your comment:</b><br>
+            <textarea name="Comment_SY9" id="Comment_SY9" cols="10" rows="5"></textarea><br>
+            <input type="submit" id="sub1_SY9" name="sub1_SY9" value="Buy" style="width: 250px;">
+        </div>
+        <div class="boxSY9">
+            <label for="span1_SY9">Book:</label>
+            <span id="span1_SY9"></span><br>
+            <label for="span2_SY9">Quantity:</label>
+            <span id="span2_SY9"></span><br>
+            <label for="span3_SY9">Name:</label>
+            <span id="span3_SY9"></span><br>
+            <label for="span4_SY9">Deliver address:</label>
+            <span id="span4_SY9"></span><br>
+            <label for="span5_SY9">Deliver date:</label>
+            <span id="span5_SY9"></span><br>
+            <label for="span6_SY9">Comment:</label>
+            <span id="span6_SY9"></span><br>
+        </div>
+    </form>
+    <!-- 10 -->
+    <h2 class="text"><b>Задание 2.5</b></h2>
+    <form id="FormSY10_1">
+        <div>
+            <b>Group:</b>
+            <select name="Group_SY10" id="Group_SY10">
+                <option value="Group 1">Group 1</option>
+                <option value="Group 2">Group 2</option>
+                <option value="Group 3">Group 3</option>
+            </select>
+            <b>Lesson:</b>
+            <select name="Lesson_SY10" id="Lesson_SY10">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <input type="submit" id="sub1_SY10" name="sub1_SY10" value="Select" style="width: 60px;">
+            <p>_____________________________________________</p>
+        </div>
+    </form>
+    <form id="FormSY10_2">
+        <div>
+            <b>Topic</b>
+            <input type="text" name="" id="Topic_SY10">
+        </div>
+        <div>
+            <b>Name/Is present</b><br>
+            Student 1&nbsp;&nbsp;<input type="checkbox" id="Name1_SY10" name="Name1_SY10"><br>
+            Student 2&nbsp;&nbsp;<input type="checkbox" id="Name2_SY10" name="Name2_SY10"><br>
+            Student 2&nbsp;&nbsp;<input type="checkbox" id="Name3_SY10" name="Name3_SY10"><br>
+            <p>_____________________________________________</p>
+            <input type="submit" id="sub2_SY10" name="sub2_SY10" value="Save" style="width: 360px;">
+        </div>
+    </form>
+    <div class="boxSY10">
+        <label for="span2_SY10"><b>Group:</b></label>
+        <span id="span2_SY10"></span><br>
+        <label for="span3_SY10"><b>Lesson:</b></label>
+        <span id="span3_SY10"></span><br>
+        <label for="span1_SY10"><b>Topic:</b></label>
+        <span id="span1_SY10"></span><br>
+        <label for="span4_SY10"><b>Student 1:</b></label>
+        <span id="span4_SY10"></span><br>
+        <label for="span5_SY10"><b>Student 2:</b></label>
+        <span id="span5_SY10"></span><br>
+        <label for="span6_SY10"><b>Student 3:</b></label>
+        <span id="span6_SY10"></span><br>
+    </div>
+    <!-- 11 -->
+    <h2 class="text"><b>Задание 2.6</b></h2>
+    <form id="FormSY11_1">
+        <b>Direction: </b>
+        <select name="Search_SY11" id="Search_SY11">
+            <option value="Odessa - Lviv">Odessa - Lviv</option>
+            <option value="Moscow - St.Peterburg">Moscow - St.Peterburg</option>
+            <option value="New-York - San-Francisco">New-York - San-Francisco</option>
+        </select>
+        <b>Date: </b>
+        <input type="date" id="Date_SY11" name="Date_SY11">
+        <input type="submit" id="sub1_SY11" name="sub1_SY11" value="Search" style="width: 100px;"><br>
+        <p>_____________________________________________________________</p><br>
+    </form>
+    <form id="FormSY11_2">
+        <input type="checkbox" id="Point01_SY11" name="Point01_SY11">01
+        <input type="checkbox" id="Point02_SY11" name="Point02_SY11">02
+        <input type="checkbox" id="Point03_SY11" name="Point03_SY11">03
+        <input type="checkbox" id="Point04_SY11" name="Point04_SY11">04
+        <input type="checkbox" id="Point05_SY11" name="Point05_SY11">05
+        <input type="checkbox" id="Point06_SY11" name="Point06_SY11">06
+        <input type="checkbox" id="Point07_SY11" name="Point07_SY11">07
+        <input type="checkbox" id="Point08_SY11" name="Point08_SY11">08
+        <input type="checkbox" id="Point09_SY11" name="Point09_SY11">09
+        <input type="checkbox" id="Point10_SY11" name="Point10_SY11">10
+        <input type="checkbox" id="Point11_SY11" name="Point11_SY11">11
+        <input type="checkbox" id="Point12_SY11" name="Point12_SY11">12
+        <input type="checkbox" id="Point13_SY11" name="Point13_SY11">13
+        <input type="checkbox" id="Point14_SY11" name="Point14_SY11">14<br>
+        <input type="checkbox" id="Point15_SY11" name="Point15_SY11">15
+        <input type="checkbox" id="Point16_SY11" name="Point16_SY11">16
+        <input type="checkbox" id="Point17_SY11" name="Point17_SY11">17
+        <input type="checkbox" id="Point18_SY11" name="Point18_SY11">18
+        <input type="checkbox" id="Point19_SY11" name="Point19_SY11">19
+        <input type="checkbox" id="Point20_SY11" name="Point20_SY11">20
+        <input type="checkbox" id="Point21_SY11" name="Point21_SY11">21
+        <input type="checkbox" id="Point22_SY11" name="Point22_SY11">22
+        <input type="checkbox" id="Point23_SY11" name="Point23_SY11">23
+        <input type="checkbox" id="Point24_SY11" name="Point24_SY11">24
+        <input type="checkbox" id="Point25_SY11" name="Point25_SY11">25
+        <input type="checkbox" id="Point26_SY11" name="Point26_SY11">26
+        <input type="checkbox" id="Point27_SY11" name="Point27_SY11">27
+        <input type="checkbox" id="Point28_SY11" name="Point28_SY11">28<br>
+        <p>_____________________________________________________________</p><br>
+        <input type="submit" id="sub2_SY11" name="sub2_SY11" value="Book" style="width: 100px;"><br>
+    </form>
+    <div class="boxSY10">
+        <label for="span1_SY11"><b>Direction:</b></label>
+        <span id="span1_SY11"></span><br>
+        <label for="span2_SY11"><b>Date:</b></label>
+        <span id="span2_SY11"></span><br>
+        <label for="span3_SY11"><b>Seat:</b></label>
+        <span id="span3_SY11"></span><br>
+        <label for="span4_SY11"><b>Total Price:</b></label>
+        <span id="span4_SY11"></span><br>
+    </div>
+    <script src="script_1.js"></script>
+    <script src="script_2.js"></script>
+    <script src="script_3.js"></script>
+    <script src="script_4.js"></script>
+    <script src="script_5.js"></script>
+    <script src="script_6.js"></script>
+    <script src="script_7.js"></script>
+    <script src="script_8.js"></script>
+    <script src="script_9.js"></script>
+    <script src="script_10.js"></script>
+    <script src="script_11.js"></script>
+</body>
+</html>

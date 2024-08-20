@@ -1,0 +1,52 @@
+* {
+    margin: 1px;
+    padding: 2px;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    background-color: black;
+}
+
+.textSY6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: italic;
+}
+
+.boxSY3 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.boxSY5 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.boxSY6 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.boxSY9 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.boxSY10 {
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+textarea {
+    width: 500px;
+    height: 140px;
+}
+
+.image {
+    width: 125px;
+    height: 200px;
+}
